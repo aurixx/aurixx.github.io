@@ -14,9 +14,13 @@ h1#title, section.container p {
 }
 
 section.container {
+    /* 50% of the width and 10% of the height is curved on the top-left of the section */
     border-top-left-radius: 50% 10%;
     border-top-right-radius: 50% 10%;
     border: 1px solid #000000;
-
     background-color: brown;
+    /* height can be fixed... */
+    height: 80vh;
+    /* ...or dynamic */
+    /* height: fit-content; */
 }
