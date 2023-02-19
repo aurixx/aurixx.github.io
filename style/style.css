@@ -2,14 +2,21 @@ body {
     align-items: center;
 }
 
-h1#title {
+h1#title, section.container p {
     color: #000000;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: bold;
-    font-size: 30px;
 
     /* Center-align element */
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+section.container {
+    border-top-left-radius: 50% 10%;
+    border-top-right-radius: 50% 10%;
+    border: 1px solid #000000;
+
+    background-color: brown;
 }
