@@ -12,4 +12,4 @@ function colorRotate() {
 };
 
 
-document.addEventListener('unload', colorRotate);
+document.addEventListener('load', colorRotate);
