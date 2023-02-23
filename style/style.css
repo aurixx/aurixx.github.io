@@ -24,3 +24,24 @@ section.container {
     /* ...or dynamic */
     /* height: fit-content; */
 }
+
+h1:hover {
+    transform: scale(2.5);
+}
+p[class="truth"] {
+	/* display: inline; */
+    margin-top: 40px;
+    margin-bottom: 20px;
+	font-size: 30px;
+}
+p.lie {
+	background-color: white;
+	/* display: inline; */
+	font-size: 10px;
+}
+p.lie:hover {
+    /* When the mouse hovers the element */
+    background-color: red;
+    transform: rotate(40rad);
+    transform: scale(3.5);
+} 
