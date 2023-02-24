@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<style>
+			:root {
+				--variable: 7px;
+				--padding: 5px;
+			}
+			body {
+				text-align: center;
+				border-style: dashed;
+				border-radius: 30px;
+				border-width: var(--variable);
+				padding-top: var(--padding);
+			}
+			p {
+				display: inline;
+				padding-bottom: 2px; /* The 'g' were touching the border and that was annoying */
+				padding-left: var(--padding);
+				padding-right: var(--padding);
+				margin-left: auto;
+				margin-right: auto;
+				border-radius: 50px;
+				border-style: dashed;
+				border-color: gray;
+				border-width: 3px;
+			}
+			
+			p#random {
+				color: green;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 style="color: red;"></h1>
+		<p style="color: red;">This paragraph should be red</p>
+		<!-- Create a <p> tag with a random text, coloured with green via CSS without using the style attribute -->
+		<p id="random">While this one should be green</p>
+	</body>
+</html>
